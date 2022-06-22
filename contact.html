@@ -3,9 +3,27 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="js/js.js"></script>
         <title>Contact</title>
     </head>
     <body>
+        <main id="contact_main">
         <h1>Contact</h1>
+        <form action="" method="get" class="contact_form">
+            <div class="form_name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form_email">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form_submit">
+                <input type="submit" value="Submit">
+            </div>
+        
+        </form>
+        <button class="home_button"><a href="index.html">Back home</a></button>
+        </main>
     </body>
 </html>
